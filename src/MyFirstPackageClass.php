@@ -20,4 +20,9 @@ class MyFirstPackageClass
     {
         return $this->kilometers * 0.62137;
     }
+
+    public function toMeters(): float
+    {
+        return $this->kilometers * 1000;
+    }
 }

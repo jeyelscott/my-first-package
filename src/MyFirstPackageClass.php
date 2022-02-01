@@ -4,12 +4,14 @@ namespace Jeyelscott\MyFirstPackage;
 
 class MyFirstPackageClass
 {
+    protected float $kilometers;
+
     public static function kilometers(float $kilometers): self
     {
         return new static($kilometers);
     }
 
-    public function __construct(protected float $kilometers)
+    public function __construct(float $kilometers)
     {
     }
 

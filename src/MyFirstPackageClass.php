@@ -13,7 +13,7 @@ class MyFirstPackageClass
     {
     }
 
-    public function toMiles():float
+    public function toMiles(): float
     {
         return $this->kilometers * 0.62137;
     }

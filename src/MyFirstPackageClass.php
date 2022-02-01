@@ -13,6 +13,7 @@ class MyFirstPackageClass
 
     public function __construct(float $kilometers)
     {
+        $this->kilometers = $kilometers;
     }
 
     public function toMiles(): float

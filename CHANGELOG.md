@@ -2,6 +2,12 @@
 
 All notable changes to `my-first-package` will be documented in this file.
 
+**Full Changelog**: https://github.com/jeyelscott/my-first-package/commits/1.2.0
+
+## 1.2.0 - 2022-02-01
+
+- add toYards
+
 **Full Changelog**: https://github.com/jeyelscott/my-first-package/commits/1.1.0
 
 ## 1.1.0 - 2022-02-01

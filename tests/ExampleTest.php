@@ -13,3 +13,9 @@ it('can convert kilometers to meters', function () {
 
     expect($meters)->toEqual(100000);
 });
+
+it('can convert kilometers to yards', function () {
+    $meters = MyFirstPackageClass::kilometers(100)->toYards();
+
+    expect($meters)->toEqual(109361);
+});

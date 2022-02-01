@@ -25,4 +25,9 @@ class MyFirstPackageClass
     {
         return $this->kilometers * 1000;
     }
+
+    public function toYards(): float
+    {
+        return $this->kilometers * 1093.61;
+    }
 }

@@ -7,15 +7,13 @@
     ],
     "homepage": "https://github.com/jeyelscott/my-first-package",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "John Leward Escote",
-            "email": "zhaile.014@gmail.com",
-            "role": "Developer"
-        }
-    ],
+    "authors": [{
+        "name": "John Leward Escote",
+        "email": "zhaile.014@gmail.com",
+        "role": "Developer"
+    }],
     "require": {
-        "php": "^8.0"
+        "php": "^7.4|^8.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.0",
